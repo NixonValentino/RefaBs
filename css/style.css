@@ -907,7 +907,6 @@ p {
 
 .slider-card:hover {
     border-color: var(--color-text);
-    transform: translateY(-2px);
 }
 
 .slider-card__media {
@@ -921,22 +920,15 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: opacity var(--trans-base), transform var(--trans-slow);
+    transition: opacity var(--trans-base);
 }
 
 .slider-card__media-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
+    display: none;
 }
 
 .slider-card:hover .slider-card__media img {
-    transform: scale(1.03);
-}
-
-.slider-card:hover .slider-card__media-hover {
-    opacity: 1;
+    transform: none;
 }
 
 .slider-card__badge {
@@ -1168,7 +1160,6 @@ p {
 
 .editorial-card:hover {
     border-color: var(--color-text);
-    transform: translateY(-3px);
 }
 
 /* Featured Editorial card: takes 2 columns on desktop */
@@ -1194,21 +1185,15 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: opacity var(--trans-base), transform var(--trans-slow);
+    transition: opacity var(--trans-base);
 }
 
 .editorial-card__img--hover {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
+    display: none;
 }
 
 .editorial-card:hover .editorial-card__img {
-    transform: scale(1.03);
-}
-
-.editorial-card:hover .editorial-card__img--hover {
-    opacity: 1;
+    transform: none;
 }
 
 .editorial-card__badges {

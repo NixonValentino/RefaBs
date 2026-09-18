@@ -149,9 +149,6 @@ function initEditorialSlider() {
                 <article class="slider-card" onclick="location.href='product.html?id=${p.id}'">
                     <div class="slider-card__media">
                         <img src="${p.image}" alt="${p.name} — MnR" loading="lazy">
-                        ${p.lifestyleImage ? `
-                            <img class="slider-card__media-hover" src="${p.lifestyleImage}" alt="${p.name} Pemakaian" loading="lazy">
-                        ` : ''}
                         <span class="slider-card__badge">${p.categoryLabel || p.category}</span>
                     </div>
                     <div class="slider-card__body">

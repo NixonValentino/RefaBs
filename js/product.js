@@ -108,39 +108,44 @@ function initGallery(product) {
 
     if (!mainImg) return;
 
-    // Susun daftar foto: Foto Produk + Foto Lifestyle
-    const images = [
-        { src: product.image, label: 'Tampilan Studio' },
-        ...(product.lifestyleImage ? [{ src: product.lifestyleImage, label: 'Foto Pemakaian' }] : [])
-    ];
+    // Susun daftar foto dari gallery yang tersedia
+    const images = (product.gallery && product.gallery.length > 0)
+        ? product.gallery.map((src, i) => ({ src, label: i === 0 ? 'Tampilan Utama' : `Foto ${i + 1}` }))
+        : [{ src: product.image, label: 'Tampilan Utama' }];
 
     mainImg.src = images[0].src;
-    mainImg.alt = `${product.name} — Scrunchie MnR`;
+    mainImg.alt = `${product.name} — MnR`;
 
     if (thumbsWrap) {
-        thumbsWrap.innerHTML = images.map((item, i) => `
-            <button class="product-gallery__thumb${i === 0 ? ' active' : ''}"
-                    data-img="${item.src}"
-                    type="button"
-                    aria-label="${item.label}">
-                <img src="${item.src}" alt="${product.name} ${item.label}">
-                <span class="product-gallery__thumb-label">${item.label}</span>
-            </button>
-        `).join('');
+        if (images.length <= 1) {
+            thumbsWrap.style.display = 'none';
+            thumbsWrap.innerHTML = '';
+        } else {
+            thumbsWrap.style.display = 'flex';
+            thumbsWrap.innerHTML = images.map((item, i) => `
+                <button class="product-gallery__thumb${i === 0 ? ' active' : ''}"
+                        data-img="${item.src}"
+                        type="button"
+                        aria-label="${item.label}">
+                    <img src="${item.src}" alt="${product.name} ${item.label}">
+                    <span class="product-gallery__thumb-label">${item.label}</span>
+                </button>
+            `).join('');
 
-        thumbsWrap.querySelectorAll('.product-gallery__thumb').forEach(thumb => {
-            thumb.addEventListener('click', () => {
-                thumbsWrap.querySelectorAll('.product-gallery__thumb').forEach(t => t.classList.remove('active'));
-                thumb.classList.add('active');
+            thumbsWrap.querySelectorAll('.product-gallery__thumb').forEach(thumb => {
+                thumb.addEventListener('click', () => {
+                    thumbsWrap.querySelectorAll('.product-gallery__thumb').forEach(t => t.classList.remove('active'));
+                    thumb.classList.add('active');
 
-                const src = thumb.dataset.img;
-                mainImg.style.opacity = '0.3';
-                setTimeout(() => {
-                    mainImg.src = src;
-                    mainImg.style.opacity = '1';
-                }, 120);
+                    const src = thumb.dataset.img;
+                    mainImg.style.opacity = '0.3';
+                    setTimeout(() => {
+                        mainImg.src = src;
+                        mainImg.style.opacity = '1';
+                    }, 120);
+                });
             });
-        });
+        }
     }
 }
 

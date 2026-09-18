@@ -93,7 +93,7 @@ function renderBudgetRecommendations(budget) {
         return;
     }
 
-    const availableProducts = MNR_PRODUCTS.filter(p => p.stock > 0);
+    const availableProducts = MNR_PRODUCTS.filter(p => p.stock > 0 && p.category !== 'Pouch');
     const totalStock = availableProducts.reduce((sum, p) => sum + p.stock, 0);
     const actualPieces = Math.min(maxPieces, totalStock);
     const totalSpend = actualPieces * itemPrice;
@@ -238,8 +238,8 @@ function renderSetBuilderResult(budget) {
         return;
     }
 
-    // Ambil varian yang tersedia dengan stok
-    const inStock = MNR_PRODUCTS.filter(p => p.stock > 0);
+    // Ambil varian scrunchie yang tersedia dengan stok
+    const inStock = MNR_PRODUCTS.filter(p => p.stock > 0 && p.category !== 'Pouch');
     const totalAvailableStock = inStock.reduce((sum, p) => sum + p.stock, 0);
 
     const actualCount = Math.min(targetCount, totalAvailableStock);
