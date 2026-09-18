@@ -19,10 +19,9 @@ const MNR_PRODUCTS = [
         color: "Emas Berkilau",
         colorHex: "#D4AF37",
         image: "assets/Katalog/GoldenHour.jpg",
-        lifestyleImage: "assets/Lifestyle/GoldenHour_life.jpg",
+        lifestyleImage: null,
         gallery: [
-            "assets/Katalog/GoldenHour.jpg",
-            "assets/Lifestyle/GoldenHour_life.jpg"
+            "assets/Katalog/GoldenHour.jpg"
         ],
         shortDescription: "Karakter warna emas hangat dari kain satin yang dimanfaatkan kembali.",
         description: "Golden Hour lahir dari kain satin upcycled yang diberikan cerita baru. Kilau keemasan hangatnya menangkap nuansa cahaya senja yang tenang. Setiap scrunchie dijahit secara handmade dengan teliti, memastikan sentuhan personal pada setiap helainya. Nyaman di rambut, lembut, dan siap menemani hari-harimu.",
@@ -40,10 +39,9 @@ const MNR_PRODUCTS = [
         color: "Batik Hitam",
         colorHex: "#1a1a1a",
         image: "assets/Katalog/MidnightSoul.jpg",
-        lifestyleImage: "assets/Lifestyle/MidnightSoul_life.jpg",
+        lifestyleImage: null,
         gallery: [
-            "assets/Katalog/MidnightSoul.jpg",
-            "assets/Lifestyle/MidnightSoul_life.jpg"
+            "assets/Katalog/MidnightSoul.jpg"
         ],
         shortDescription: "Motif batik hitam klasik yang sarat karakter dan cerita tradisi.",
         description: "Midnight Soul memadukan kedalaman warna gelap dengan elegansi motif batik Nusantara. Dibuat dari potongan kain batik pilihan yang diselamatkan, motifnya menyimpan warisan budaya yang kini hadir dalam bentuk aksesori modern. Pilihan tepat untuk outfit monokrom maupun gaya harian yang berkarakter.",
@@ -61,10 +59,9 @@ const MNR_PRODUCTS = [
         color: "Batik Ungu Tropis",
         colorHex: "#6B4C82",
         image: "assets/Katalog/TropicalBatik.jpg",
-        lifestyleImage: "assets/Lifestyle/TropicalBatik_life.jpg",
+        lifestyleImage: null,
         gallery: [
-            "assets/Katalog/TropicalBatik.jpg",
-            "assets/Lifestyle/TropicalBatik_life.jpg"
+            "assets/Katalog/TropicalBatik.jpg"
         ],
         shortDescription: "Perpaduan corak batik tropis yang hidup, ceria, dan penuh energi.",
         description: "Tropical Batik memancarkan kegembiraan lewat paduan warna dan motif batik tropis yang berani. Setiap potongan kain membawa keunikan tersendiri, menciptakan komposisi corak yang tidak akan pernah sama persis pada produk lainnya. Memberikan sentuhan segar dan playful untuk setiap gaya rambutmu.",
@@ -82,10 +79,9 @@ const MNR_PRODUCTS = [
         color: "Batik Lilac Lavender",
         colorHex: "#9D84B7",
         image: "assets/Katalog/LavenderBatik.jpg",
-        lifestyleImage: "assets/Lifestyle/LavenderBatik_life.jpg",
+        lifestyleImage: null,
         gallery: [
-            "assets/Katalog/LavenderBatik.jpg",
-            "assets/Lifestyle/LavenderBatik_life.jpg"
+            "assets/Katalog/LavenderBatik.jpg"
         ],
         shortDescription: "Nuansa ungu lavender lembut dengan motif batik anggun yang terbatas.",
         description: "Lavender Batik menghadirkan ketenangan lewat gradasi warna lilac pastel berpadu motif batik lembut. Diproduksi dalam jumlah sangat terbatas karena ketersediaan kain yang langka. Sentuhan manis yang understated untuk melengkapi penampilan feminin, clean, dan mindful.",
@@ -103,14 +99,33 @@ const MNR_PRODUCTS = [
         color: "Hitam Pekat",
         colorHex: "#222222",
         image: "assets/Katalog/MidnightPlain.jpg",
-        lifestyleImage: "assets/Lifestyle/MidnightPlain_life.jpg",
+        lifestyleImage: null,
         gallery: [
-            "assets/Katalog/MidnightPlain.jpg",
-            "assets/Lifestyle/MidnightPlain_life.jpg"
+            "assets/Katalog/MidnightPlain.jpg"
         ],
         shortDescription: "Warna hitam polos esensial. Simpel, timeless, dan minim sampah.",
         description: "Midnight Plain membuktikan bahwa kesederhanaan punya daya tarik tersendiri. Menggunakan kain hitam polos daur ulang dengan tekstur rapi dan jahitan kokoh. Tanpa motif berlebih, murni mengutamakan fungsi, kenyamanan elastis, dan komitmen keberlanjutan.",
         fabricStory: "Kain katun tebal daur ulang sisa workshop garment lokal. Timeless, kokoh, dan selalu cocok untuk gaya apa pun."
+    },
+    {
+        id: "MNR-006",
+        name: "Batik Pouch",
+        category: "Pouch",
+        categoryLabel: "Pouch",
+        tags: ["pouch", "batik", "new", "available"],
+        price: 15000,
+        stock: 6,
+        material: "Kain batik upcycled & furing katun",
+        color: "Batik Hitam Klasik",
+        colorHex: "#2A231D",
+        image: "assets/Katalog/pouch.jpg",
+        lifestyleImage: null,
+        gallery: [
+            "assets/Katalog/pouch.jpg"
+        ],
+        shortDescription: "Pouch jinjing serbaguna elegan dari kain batik daur ulang pilihan.",
+        description: "Batik Pouch MnR adalah perpaduan keindahan motif batik nusantara dengan kepraktisan modern. Dibuat secara handmade dari sisa kain batik katun berkualitas tinggi, pouch ini kokoh, berfuring rapi, dan dilengkapi pegangan pita satin hitam yang nyaman digenggam. Sangat pas untuk menyimpan perlengkapan esensial harian seperti kosmetik, ponsel, kartu, maupun scrunchie MnR koleksimu.",
+        fabricStory: "Potongan kain batik cap nusantara bermotif sulur daun klasik yang diselamatkan dari sisa produksi busana lokal, dijahit kembali menjadi aksesori fungsional bernilai tinggi."
     }
 ];
 
@@ -118,9 +133,9 @@ const MNR_PRODUCTS = [
  * MnR Impact Data
  */
 const MNR_IMPACT = {
-    fabricRepurposed: "15+", // meter kain diselamatkan
-    scrunchiesCreated: 30,  // Total stok awal
-    uniquePieces: 5          // Desain unik
+    fabricRepurposed: "16+", // meter kain diselamatkan
+    scrunchiesCreated: 36,  // Total stok awal
+    uniquePieces: 6          // Desain unik
 };
 
 /**

@@ -92,16 +92,10 @@ function buildEditorialCard(product, index) {
             
             <a href="product.html?id=${product.id}" class="editorial-card__gallery-link" aria-label="Lihat detail ${product.name}">
                 <div class="editorial-card__img-container">
-                    <!-- Foto Produk Studio -->
+                    <!-- Foto Produk -->
                     <img class="editorial-card__img editorial-card__img--primary"
                          src="${product.image}"
-                         alt="${product.name} — Scrunchie MnR"
-                         loading="lazy">
-                    
-                    <!-- Foto Lifestyle saat Hover -->
-                    <img class="editorial-card__img editorial-card__img--hover"
-                         src="${lifestyleImage}"
-                         alt="${product.name} — Gaya Pemakaian"
+                         alt="${product.name} — MnR"
                          loading="lazy">
 
                     <!-- Badges Minimalis -->
