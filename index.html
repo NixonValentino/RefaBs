@@ -1,575 +1,605 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MnR — Brand sustainable fashion scrunchie handmade dari kain upcycled. Give Fabric a Second Story. Seluruh produk Rp6.000/pcs.">
+    <meta name="description"
+        content="MnR — Brand sustainable fashion scrunchie handmade dari kain upcycled. Give Fabric a Second Story. Seluruh produk Rp6.000/pcs.">
     <title>MnR — Beri Kain Kesempatan Kedua | Official Store</title>
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
 
-<!-- ══════════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════════
      NAVBAR
      ══════════════════════════════════════════════════════════ -->
-<nav class="navbar" role="navigation" aria-label="Navigasi Utama">
-    <div class="container">
-        <div class="navbar__inner">
-            <a href="index.html" class="navbar__logo" aria-label="Beranda MnR">
-                <img src="assets/Logo/logo.png" alt="Logo MnR" class="navbar__logo-img">
-                <span class="navbar__logo-text">MnR</span>
-            </a>
+    <nav class="navbar" role="navigation" aria-label="Navigasi Utama">
+        <div class="container">
+            <div class="navbar__inner">
+                <a href="index.html" class="navbar__logo" aria-label="Beranda MnR">
+                    <img src="assets/Logo/logo.png" alt="Logo MnR" class="navbar__logo-img">
+                    <span class="navbar__logo-text">MnR</span>
+                </a>
 
-            <ul class="navbar__nav" role="list">
-                <li><a href="index.html" class="navbar__link active">Beranda</a></li>
-                <li><a href="catalog.html" class="navbar__link">Koleksi</a></li>
-                <li><a href="#cerita-kami" class="navbar__link">Cerita Kami</a></li>
-                <li><a href="#dampak" class="navbar__link">Dampak</a></li>
-                <li><a href="https://wa.me/6285211385618" class="navbar__link" target="_blank" rel="noopener noreferrer">Hubungi Kami</a></li>
-            </ul>
+                <ul class="navbar__nav" role="list">
+                    <li><a href="index.html" class="navbar__link active">Beranda</a></li>
+                    <li><a href="catalog.html" class="navbar__link">Koleksi</a></li>
+                    <li><a href="#cerita-kami" class="navbar__link">Cerita Kami</a></li>
+                    <li><a href="#dampak" class="navbar__link">Dampak</a></li>
+                    <li><a href="https://wa.me/6285211385618" class="navbar__link" target="_blank"
+                            rel="noopener noreferrer">Hubungi Kami</a></li>
+                </ul>
 
-            <div class="navbar__actions">
-                <a href="catalog.html" class="navbar__cta">Lihat Koleksi</a>
+                <div class="navbar__actions">
+                    <a href="catalog.html" class="navbar__cta">Lihat Koleksi</a>
+                </div>
+
+                <button class="navbar__hamburger" id="hamburger-btn" aria-label="Buka menu navigasi"
+                    aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
             </div>
-
-            <button class="navbar__hamburger" id="hamburger-btn" aria-label="Buka menu navigasi" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
         </div>
-    </div>
-</nav>
-
-<!-- Mobile Menu Drawer -->
-<div class="navbar__mobile" id="mobile-menu" role="dialog" aria-label="Menu navigasi mobile">
-    <nav class="navbar__mobile-nav">
-        <a href="index.html" class="navbar__mobile-link">Beranda</a>
-        <a href="catalog.html" class="navbar__mobile-link">Koleksi</a>
-        <a href="#cerita-kami" class="navbar__mobile-link">Cerita Kami</a>
-        <a href="#dampak" class="navbar__mobile-link">Dampak</a>
-        <a href="https://wa.me/6285211385618" class="navbar__mobile-link" target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
     </nav>
-    <a href="catalog.html" class="btn btn--primary btn--full">Jelajahi Koleksi</a>
-</div>
 
-<!-- ══════════════════════════════════════════════════════════
+    <!-- Mobile Menu Drawer -->
+    <div class="navbar__mobile" id="mobile-menu" role="dialog" aria-label="Menu navigasi mobile">
+        <nav class="navbar__mobile-nav">
+            <a href="index.html" class="navbar__mobile-link">Beranda</a>
+            <a href="catalog.html" class="navbar__mobile-link">Koleksi</a>
+            <a href="#cerita-kami" class="navbar__mobile-link">Cerita Kami</a>
+            <a href="#dampak" class="navbar__mobile-link">Dampak</a>
+            <a href="https://wa.me/6285211385618" class="navbar__mobile-link" target="_blank"
+                rel="noopener noreferrer">Hubungi Kami</a>
+        </nav>
+        <a href="catalog.html" class="btn btn--primary btn--full">Jelajahi Koleksi</a>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════
      HERO SECTION
      ══════════════════════════════════════════════════════════ -->
-<header class="section hero" id="beranda">
-    <div class="container">
-        <div class="hero__grid">
-            
-            <!-- Hero Copywriting -->
-            <div class="hero__content">
-                <div class="hero__tagline-eyebrow anim-fade-up">
-                    Sustainable Fashion · Handmade Studio
+    <header class="section hero" id="beranda">
+        <div class="container">
+            <div class="hero__grid">
+
+                <!-- Hero Copywriting -->
+                <div class="hero__content">
+                    <div class="hero__tagline-eyebrow anim-fade-up">
+                        Sustainable Fashion · Handmade Studio
+                    </div>
+
+                    <h1 class="hero__title anim-fade-up anim-delay-1">
+                        Beri Kain<br>
+                        <span class="hero__title-accent">Kesempatan Kedua.</span>
+                    </h1>
+
+                    <p class="hero__subtitle anim-fade-up anim-delay-2">
+                        MnR mengubah kain yang sudah tidak digunakan menjadi scrunchie handmade yang unik, bernilai, dan
+                        ramah lingkungan. Setiap helai membawa cerita baru ke rambutmu.
+                    </p>
+
+                    <div class="hero__actions anim-fade-up anim-delay-3">
+                        <a href="catalog.html" class="btn btn--primary" id="hero-explore-cta">
+                            Lihat Koleksi
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#cerita-kami" class="btn btn--outline" id="hero-story-cta">Kenal MnR</a>
+                    </div>
+
+                    <div class="hero__credentials anim-fade-up anim-delay-4">
+                        <div class="hero__credential-item">
+                            <strong>Rp6.000 / pcs</strong>
+                            <span>Harga Seragam</span>
+                        </div>
+                        <div class="hero__credential-item">
+                            <strong>100% Upcycled</strong>
+                            <span>Kain Terpilih</span>
+                        </div>
+                        <div class="hero__credential-item">
+                            <strong>Handmade</strong>
+                            <span>Jahitan Pengrajin</span>
+                        </div>
+                    </div>
                 </div>
 
-                <h1 class="hero__title anim-fade-up anim-delay-1">
-                    Beri Kain<br>
-                    <span class="hero__title-accent">Kesempatan Kedua.</span>
-                </h1>
-
-                <p class="hero__subtitle anim-fade-up anim-delay-2">
-                    MnR mengubah kain yang sudah tidak digunakan menjadi scrunchie handmade yang unik, bernilai, dan ramah lingkungan. Setiap helai membawa cerita baru ke rambutmu.
-                </p>
-
-                <div class="hero__actions anim-fade-up anim-delay-3">
-                    <a href="catalog.html" class="btn btn--primary" id="hero-explore-cta">
-                        Lihat Koleksi
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </a>
-                    <a href="#cerita-kami" class="btn btn--outline" id="hero-story-cta">Kenal MnR</a>
-                </div>
-
-                <div class="hero__credentials anim-fade-up anim-delay-4">
-                    <div class="hero__credential-item">
-                        <strong>Rp6.000 / pcs</strong>
-                        <span>Harga Seragam</span>
+                <!-- Hero Visual Composition -->
+                <div class="hero__visual-stack anim-scale-in anim-delay-2">
+                    <div class="hero__main-image-wrap">
+                        <img src="assets/GoldenHour.png" alt="Model memakai scrunchie Golden Hour MnR"
+                            id="hero-main-image">
                     </div>
-                    <div class="hero__credential-item">
-                        <strong>100% Upcycled</strong>
-                        <span>Kain Terpilih</span>
-                    </div>
-                    <div class="hero__credential-item">
-                        <strong>Handmade</strong>
-                        <span>Jahitan Pengrajin</span>
+
+                    <div class="hero__floating-card anim-fade-up anim-delay-3">
+                        <div class="hero__floating-card-label">Koleksi Pilihan</div>
+                        <div class="hero__floating-card-title">Golden Hour</div>
+                        <div class="hero__floating-card-price">Rp6.000</div>
                     </div>
                 </div>
+
             </div>
-
-            <!-- Hero Visual Composition -->
-            <div class="hero__visual-stack anim-scale-in anim-delay-2">
-                <div class="hero__main-image-wrap">
-                    <img src="assets/GoldenHour.png"
-                         alt="Model memakai scrunchie Golden Hour MnR"
-                         id="hero-main-image">
-                </div>
-                
-                <div class="hero__floating-card anim-fade-up anim-delay-3">
-                    <div class="hero__floating-card-label">Koleksi Pilihan</div>
-                    <div class="hero__floating-card-title">Golden Hour</div>
-                    <div class="hero__floating-card-price">Rp6.000</div>
-                </div>
-            </div>
-
         </div>
-    </div>
-</header>
+    </header>
 
-<!-- ══════════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════════
      BRAND STORY SECTION
      ══════════════════════════════════════════════════════════ -->
-<section class="section brand-story" id="cerita-kami" aria-label="Cerita Brand MnR">
-    <div class="container">
-        <div class="brand-story__grid">
-            
-            <!-- Foto Pengrajin & Proses Manual -->
-            <div class="brand-story__media-col anim-slide-right">
-                <div class="brand-story__image-wrap">
-                    <img src="assets/story.png"
-                         alt="Proses pembuatan scrunchie MnR dari kain sisa garmen"
-                         loading="lazy">
-                </div>
-                <p class="brand-story__caption">
-                    Studio MnR — Setiap jahitan dikerjakan tangan dengan teliti dan penuh dedikasi.
-                </p>
-            </div>
+    <section class="section brand-story" id="cerita-kami" aria-label="Cerita Brand MnR">
+        <div class="container">
+            <div class="brand-story__grid">
 
-            <!-- Konten Cerita -->
-            <div class="brand-story__content-col anim-slide-left">
-                <span class="section-eyebrow">Cerita Kami</span>
-                <h2 class="brand-story__title">
-                    Bukan Sekadar<br><span class="text-italic">Kuncir Rambut.</span>
-                </h2>
-                
-                <p class="brand-story__text">
-                    Setiap scrunchie MnR bermula dari potongan kain yang tak lagi terpakai — tersisih di sudut ruang potong garmen, menunggu waktu untuk berakhir sebagai limbah. Kami memilihnya, melihat potensinya, dan memberikannya tujuan baru.
-                </p>
-                <p class="brand-story__text">
-                    Bukan sekadar daur ulang biasa, tetapi <strong>reimaginasi</strong>. Kain satin, batik nusantara, hingga katun polos kami padukan menjadi aksesori yang fungsional, berkarakter, dan nyaman di rambut tanpa merusaknya.
-                </p>
-
-                <div class="brand-story__principles">
-                    <div class="principle-item">
-                        <div class="principle-item__num">01</div>
-                        <div class="principle-item__title">Kain Pilihan</div>
-                        <div class="principle-item__desc">Bahan kain bersih dan berkualitas yang diselamatkan sebelum terbuang.</div>
+                <!-- Foto Pengrajin & Proses Manual -->
+                <div class="brand-story__media-col anim-slide-right">
+                    <div class="brand-story__image-wrap">
+                        <img src="assets/story.png" alt="Proses pembuatan scrunchie MnR dari kain sisa garmen"
+                            loading="lazy">
                     </div>
-                    <div class="principle-item">
-                        <div class="principle-item__num">02</div>
-                        <div class="principle-item__title">Jahitan Tangan</div>
-                        <div class="principle-item__desc">Diproduksi secara lokal dengan jahitan kuat dan elastisitas yang awet.</div>
-                    </div>
-                    <div class="principle-item">
-                        <div class="principle-item__num">03</div>
-                        <div class="principle-item__title">Corak Terbatas</div>
-                        <div class="principle-item__desc">Karena berasal dari sisa kain unik, jumlah helai tiap motif sangat eksklusif.</div>
-                    </div>
-                    <div class="principle-item">
-                        <div class="principle-item__num">04</div>
-                        <div class="principle-item__title">Harga Terjangkau</div>
-                        <div class="principle-item__desc">Hanya Rp6.000 / pcs agar gaya hidup berkelanjutan ramah di kantong siapa saja.</div>
-                    </div>
+                    <p class="brand-story__caption">
+                        Studio MnR — Setiap jahitan dikerjakan tangan dengan teliti dan penuh dedikasi.
+                    </p>
                 </div>
 
-                <a href="catalog.html" class="btn btn--dark">
-                    Jelajahi Semua Produk
-                </a>
-            </div>
+                <!-- Konten Cerita -->
+                <div class="brand-story__content-col anim-slide-left">
+                    <span class="section-eyebrow">Cerita Kami</span>
+                    <h2 class="brand-story__title">
+                        Bukan Sekadar<br><span class="text-italic">Kuncir Rambut.</span>
+                    </h2>
 
+                    <p class="brand-story__text">
+                        Setiap scrunchie MnR bermula dari potongan kain yang tak lagi terpakai — tersisih di sudut ruang
+                        potong garmen, menunggu waktu untuk berakhir sebagai limbah. Kami memilihnya, melihat
+                        potensinya, dan memberikannya tujuan baru.
+                    </p>
+                    <p class="brand-story__text">
+                        Bukan sekadar daur ulang biasa, tetapi <strong>reimaginasi</strong>. Kain satin, batik
+                        nusantara, hingga katun polos kami padukan menjadi aksesori yang fungsional, berkarakter, dan
+                        nyaman di rambut tanpa merusaknya.
+                    </p>
+
+                    <div class="brand-story__principles">
+                        <div class="principle-item">
+                            <div class="principle-item__num">01</div>
+                            <div class="principle-item__title">Kain Pilihan</div>
+                            <div class="principle-item__desc">Bahan kain bersih dan berkualitas yang diselamatkan
+                                sebelum terbuang.</div>
+                        </div>
+                        <div class="principle-item">
+                            <div class="principle-item__num">02</div>
+                            <div class="principle-item__title">Jahitan Tangan</div>
+                            <div class="principle-item__desc">Diproduksi secara lokal dengan jahitan kuat dan
+                                elastisitas yang awet.</div>
+                        </div>
+                        <div class="principle-item">
+                            <div class="principle-item__num">03</div>
+                            <div class="principle-item__title">Corak Terbatas</div>
+                            <div class="principle-item__desc">Karena berasal dari sisa kain unik, jumlah helai tiap
+                                motif sangat eksklusif.</div>
+                        </div>
+                        <div class="principle-item">
+                            <div class="principle-item__num">04</div>
+                            <div class="principle-item__title">Harga Terjangkau</div>
+                            <div class="principle-item__desc">Hanya Rp6.000 / pcs agar gaya hidup berkelanjutan ramah di
+                                kantong siapa saja.</div>
+                        </div>
+                    </div>
+
+                    <a href="catalog.html" class="btn btn--dark">
+                        Jelajahi Semua Produk
+                    </a>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ══════════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════════
      FABRIC JOURNEY SECTION
      ══════════════════════════════════════════════════════════ -->
-<section class="section fabric-journey" id="proses" aria-label="Alur Daur Ulang Kain">
-    <div class="container">
-        <div class="section-header section-header--center anim-fade-up">
-            <span class="section-eyebrow">Alur & Proses</span>
-            <h2 class="section-title">Setiap Helai Kain Punya Cerita.</h2>
-            <p class="section-subtitle">
-                Dari lembaran kain yang terlupakan hingga menjadi aksesori cantik yang siap melengkapi gayamu setiap hari.
-            </p>
+    <section class="section fabric-journey" id="proses" aria-label="Alur Daur Ulang Kain">
+        <div class="container">
+            <div class="section-header section-header--center anim-fade-up">
+                <span class="section-eyebrow">Alur & Proses</span>
+                <h2 class="section-title">Setiap Helai Kain Punya Cerita.</h2>
+                <p class="section-subtitle">
+                    Dari lembaran kain yang terlupakan hingga menjadi aksesori cantik yang siap melengkapi gayamu setiap
+                    hari.
+                </p>
+            </div>
+
+            <div class="journey-grid">
+                <div class="journey-card anim-fade-up anim-delay-1">
+                    <div class="journey-card__step-num">TAHAP 01</div>
+                    <div>
+                        <h3 class="journey-card__title">Penyelamatan Kain</h3>
+                        <p class="journey-card__desc">
+                            Mengumpulkan sisa kain garment dan penjahit lokal yang masih sangat layak, bersih, dan
+                            bertekstur lembut.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="journey-card anim-fade-up anim-delay-2">
+                    <div class="journey-card__step-num">TAHAP 02</div>
+                    <div>
+                        <h3 class="journey-card__title">Kurasi & Pemilahan</h3>
+                        <p class="journey-card__desc">
+                            Mengecek kelayakan serat kain, menyortir palet warna, serta merancang pola potongan yang
+                            memaksimalkan motif.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="journey-card anim-fade-up anim-delay-3">
+                    <div class="journey-card__step-num">TAHAP 03</div>
+                    <div>
+                        <h3 class="journey-card__title">Penjahitan Manual</h3>
+                        <p class="journey-card__desc">
+                            Dijahit tangan dengan memasukkan karet elastis berkualitas tinggi yang tidak mudah kendur
+                            dan tidak menjambak rambut.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="journey-card anim-fade-up anim-delay-4">
+                    <div class="journey-card__step-num">TAHAP 04</div>
+                    <div>
+                        <h3 class="journey-card__title">Aksesori Bernilai Baru</h3>
+                        <p class="journey-card__desc">
+                            Lahir sebagai scrunchie MnR yang siap kamu pakai atau jadikan hadiah bermakna dengan harga
+                            Rp6.000 / pcs.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="journey-grid">
-            <div class="journey-card anim-fade-up anim-delay-1">
-                <div class="journey-card__step-num">TAHAP 01</div>
-                <div>
-                    <h3 class="journey-card__title">Penyelamatan Kain</h3>
-                    <p class="journey-card__desc">
-                        Mengumpulkan sisa kain garment dan penjahit lokal yang masih sangat layak, bersih, dan bertekstur lembut.
-                    </p>
-                </div>
-            </div>
-
-            <div class="journey-card anim-fade-up anim-delay-2">
-                <div class="journey-card__step-num">TAHAP 02</div>
-                <div>
-                    <h3 class="journey-card__title">Kurasi & Pemilahan</h3>
-                    <p class="journey-card__desc">
-                        Mengecek kelayakan serat kain, menyortir palet warna, serta merancang pola potongan yang memaksimalkan motif.
-                    </p>
-                </div>
-            </div>
-
-            <div class="journey-card anim-fade-up anim-delay-3">
-                <div class="journey-card__step-num">TAHAP 03</div>
-                <div>
-                    <h3 class="journey-card__title">Penjahitan Manual</h3>
-                    <p class="journey-card__desc">
-                        Dijahit tangan dengan memasukkan karet elastis berkualitas tinggi yang tidak mudah kendur dan tidak menjambak rambut.
-                    </p>
-                </div>
-            </div>
-
-            <div class="journey-card anim-fade-up anim-delay-4">
-                <div class="journey-card__step-num">TAHAP 04</div>
-                <div>
-                    <h3 class="journey-card__title">Aksesori Bernilai Baru</h3>
-                    <p class="journey-card__desc">
-                        Lahir sebagai scrunchie MnR yang siap kamu pakai atau jadikan hadiah bermakna dengan harga Rp6.000 / pcs.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ══════════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════════
      EDITORIAL COLLECTION SLIDER
      ══════════════════════════════════════════════════════════ -->
-<section class="section slider-section" id="koleksi" aria-label="Koleksi Scrunchie MnR">
-    <div class="container">
-        <div class="slider-section__header-row">
-            <div>
-                <span class="section-eyebrow">Katalog Terpilih</span>
-                <h2 class="section-title">Koleksi MnR.</h2>
-                <p class="section-subtitle">
-                    Koleksi aksesori pilihan: Scrunchie <strong>Rp6.000 / pcs</strong> & Pouch <strong>Rp15.000 / pcs</strong>.
-                </p>
+    <section class="section slider-section" id="koleksi" aria-label="Koleksi Scrunchie MnR">
+        <div class="container">
+            <div class="slider-section__header-row">
+                <div>
+                    <span class="section-eyebrow">Katalog Terpilih</span>
+                    <h2 class="section-title">Koleksi MnR.</h2>
+                    <p class="section-subtitle">
+                        Koleksi aksesori pilihan: Scrunchie <strong>Rp6.000 / pcs</strong> & Pouch <strong>Rp15.000 /
+                            pcs</strong>.
+                    </p>
+                </div>
+                <div class="slider-nav-buttons">
+                    <button class="slider-btn" id="slider-prev" aria-label="Koleksi sebelumnya">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <button class="slider-btn" id="slider-next" aria-label="Koleksi berikutnya">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="slider-nav-buttons">
-                <button class="slider-btn" id="slider-prev" aria-label="Koleksi sebelumnya">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="15 18 9 12 15 6"></polyline>
-                    </svg>
-                </button>
-                <button class="slider-btn" id="slider-next" aria-label="Koleksi berikutnya">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
-                </button>
+
+            <div class="slider-track-outer">
+                <div class="slider-track" id="slider-track">
+                    <!-- Dimuat secara dinamis oleh main.js dari products.js -->
+                </div>
+            </div>
+
+            <div class="slider-footer">
+                <div class="slider-dots" id="slider-dots"></div>
+                <a href="catalog.html" class="btn btn--outline">Lihat Semua Koleksi →</a>
             </div>
         </div>
+    </section>
 
-        <div class="slider-track-outer">
-            <div class="slider-track" id="slider-track">
-                <!-- Dimuat secara dinamis oleh main.js dari products.js -->
-            </div>
-        </div>
-
-        <div class="slider-footer">
-            <div class="slider-dots" id="slider-dots"></div>
-            <a href="catalog.html" class="btn btn--outline">Lihat Semua Koleksi →</a>
-        </div>
-    </div>
-</section>
-
-<!-- ══════════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════════
      FIND YOUR MNR — Budget Recommendation
      ══════════════════════════════════════════════════════════ -->
-<section class="section recommendation-section" id="rekomendasi" aria-label="Rekomendasi Sesuai Budget">
-    <div class="container">
-        <div class="section-header section-header--center anim-fade-up">
-            <span class="section-eyebrow">Panduan Belanja</span>
-            <h2 class="section-title">Temukan Scrunchie Sesuai Budgetmu.</h2>
-            <p class="section-subtitle">
-                Setiap produk berharga <strong>Rp6.000 / pcs</strong>. Masukkan budgetmu, dan kami akan hitung berapa banyak scrunchie cantik yang bisa kamu miliki.
-            </p>
-        </div>
-
-        <div class="rec-widget anim-fade-up anim-delay-1">
-            <div class="budget-input-group" id="rec-form">
-                <div class="budget-prefix">Rp</div>
-                <input type="text"
-                       id="rec-budget-input"
-                       class="budget-input"
-                       placeholder="Contoh: 20.000"
-                       inputmode="numeric"
-                       aria-label="Masukkan budget belanja">
-                <button class="budget-btn" id="rec-submit" type="button">Cek Rekomendasi</button>
+    <section class="section recommendation-section" id="rekomendasi" aria-label="Rekomendasi Sesuai Budget">
+        <div class="container">
+            <div class="section-header section-header--center anim-fade-up">
+                <span class="section-eyebrow">Panduan Belanja</span>
+                <h2 class="section-title">Temukan Scrunchie Sesuai Budgetmu.</h2>
+                <p class="section-subtitle">
+                    Setiap produk berharga <strong>Rp6.000 / pcs</strong>. Masukkan budgetmu, dan kami akan hitung
+                    berapa banyak scrunchie cantik yang bisa kamu miliki.
+                </p>
             </div>
 
-            <!-- Hasil Rekomendasi -->
-            <div class="rec-results" id="rec-results" aria-live="polite"></div>
-        </div>
-    </div>
-</section>
+            <div class="rec-widget anim-fade-up anim-delay-1">
+                <div class="budget-input-group" id="rec-form">
+                    <div class="budget-prefix">Rp</div>
+                    <input type="text" id="rec-budget-input" class="budget-input" placeholder="Contoh: 20.000"
+                        inputmode="numeric" aria-label="Masukkan budget belanja">
+                    <button class="budget-btn" id="rec-submit" type="button">Cek Rekomendasi</button>
+                </div>
 
-<!-- ══════════════════════════════════════════════════════════
+                <!-- Hasil Rekomendasi -->
+                <div class="rec-results" id="rec-results" aria-live="polite"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
      BUILD YOUR MNR — Set Builder
      ══════════════════════════════════════════════════════════ -->
-<section class="section section--warm" id="susun-paket" aria-label="Susun Paket Pilihanmu">
-    <div class="container">
-        <div class="section-header section-header--center anim-fade-up">
-            <span class="section-eyebrow">Paket Kustom</span>
-            <h2 class="section-title">Buat Pilihanmu.</h2>
-            <p class="section-subtitle">
-                Ingin beli untuk diri sendiri atau hadiah teman? Masukkan budgetmu dan kami susunkan paket varian terbaik yang siap dipesan langsung via WhatsApp.
-            </p>
-        </div>
-
-        <div class="rec-widget anim-fade-up anim-delay-1">
-            <div class="budget-input-group">
-                <div class="budget-prefix">Rp</div>
-                <input type="text"
-                       id="build-budget-input"
-                       class="budget-input"
-                       placeholder="Contoh: 30.000"
-                       inputmode="numeric"
-                       aria-label="Masukkan budget paket">
-                <button class="budget-btn" id="build-submit" type="button">Susun Paket</button>
+    <section class="section section--warm" id="susun-paket" aria-label="Susun Paket Pilihanmu">
+        <div class="container">
+            <div class="section-header section-header--center anim-fade-up">
+                <span class="section-eyebrow">Paket Kustom</span>
+                <h2 class="section-title">Buat Pilihanmu.</h2>
+                <p class="section-subtitle">
+                    Ingin beli untuk diri sendiri atau hadiah teman? Masukkan budgetmu dan kami susunkan paket varian
+                    terbaik yang siap dipesan langsung via WhatsApp.
+                </p>
             </div>
 
-            <!-- Hasil Paket -->
-            <div class="build-results" id="build-results" aria-live="polite"></div>
-        </div>
-    </div>
-</section>
+            <div class="rec-widget anim-fade-up anim-delay-1">
+                <div class="budget-input-group">
+                    <div class="budget-prefix">Rp</div>
+                    <input type="text" id="build-budget-input" class="budget-input" placeholder="Contoh: 30.000"
+                        inputmode="numeric" aria-label="Masukkan budget paket">
+                    <button class="budget-btn" id="build-submit" type="button">Susun Paket</button>
+                </div>
 
-<!-- ══════════════════════════════════════════════════════════
+                <!-- Hasil Paket -->
+                <div class="build-results" id="build-results" aria-live="polite"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
      IMPACT SECTION
      ══════════════════════════════════════════════════════════ -->
-<section class="section impact-section" id="dampak" aria-label="Dampak Keberlanjutan MnR">
-    <div class="container">
-        <div class="section-header section-header--center anim-fade-up">
-            <span class="section-eyebrow">Dampak Nyata</span>
-            <h2 class="section-title" style="color: var(--color-bg);">Jejak Kebaikan MnR.</h2>
-            <p class="section-subtitle">
-                Langkah kecil yang bermakna. Setiap helai kain yang diselamatkan mengurangi beban lingkungan dan mendukung karya lokal.
-            </p>
+    <section class="section impact-section" id="dampak" aria-label="Dampak Keberlanjutan MnR">
+        <div class="container">
+            <div class="section-header section-header--center anim-fade-up">
+                <span class="section-eyebrow">Dampak Nyata</span>
+                <h2 class="section-title" style="color: var(--color-bg);">Jejak Kebaikan MnR.</h2>
+                <p class="section-subtitle">
+                    Langkah kecil yang bermakna. Setiap helai kain yang diselamatkan mengurangi beban lingkungan dan
+                    mendukung karya lokal.
+                </p>
+            </div>
+
+            <div class="impact-grid">
+                <div class="impact-card anim-fade-up anim-delay-1">
+                    <div class="impact-card__number-wrap">
+                        <span class="counter" data-target="15" id="counter-fabric">15</span>
+                        <span class="impact-card__suffix">+ m</span>
+                    </div>
+                    <div class="impact-card__label">Kain Diselamatkan</div>
+                    <div class="impact-card__desc">Meter kain sisa produksi yang dialihkan dari tempat pembuangan
+                        menjadi produk bernilai.</div>
+                </div>
+
+                <div class="impact-card anim-fade-up anim-delay-2">
+                    <div class="impact-card__number-wrap">
+                        <span class="counter" data-target="30" id="counter-scrunchies">30</span>
+                        <span class="impact-card__suffix">pcs</span>
+                    </div>
+                    <div class="impact-card__label">Scrunchie Tercipta</div>
+                    <div class="impact-card__desc">Koleksi batch pertama yang dijahit dengan tangan dan siap menemani
+                        gaya harianmu.</div>
+                </div>
+
+                <div class="impact-card anim-fade-up anim-delay-3">
+                    <div class="impact-card__number-wrap">
+                        <span class="counter" data-target="5" id="counter-designs">5</span>
+                        <span class="impact-card__suffix">desain</span>
+                    </div>
+                    <div class="impact-card__label">Corak & Varian Unik</div>
+                    <div class="impact-card__desc">Dari kilau satin keemasan hingga motif batik klasik Nusantara yang
+                        sarat filosofi.</div>
+                </div>
+
+                <div class="impact-card anim-fade-up anim-delay-4">
+                    <div class="impact-card__number-wrap">
+                        <span class="counter" data-target="100" id="counter-handmade">100</span>
+                        <span class="impact-card__suffix">%</span>
+                    </div>
+                    <div class="impact-card__label">Jahitan Tangan Lokal</div>
+                    <div class="impact-card__desc">Dibuat secara manual tanpa mesin pabrik masal, menjaga keaslian nilai
+                        karya lokal.</div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="impact-grid">
-            <div class="impact-card anim-fade-up anim-delay-1">
-                <div class="impact-card__number-wrap">
-                    <span class="counter" data-target="15" id="counter-fabric">15</span>
-                    <span class="impact-card__suffix">+ m</span>
-                </div>
-                <div class="impact-card__label">Kain Diselamatkan</div>
-                <div class="impact-card__desc">Meter kain sisa produksi yang dialihkan dari tempat pembuangan menjadi produk bernilai.</div>
-            </div>
-
-            <div class="impact-card anim-fade-up anim-delay-2">
-                <div class="impact-card__number-wrap">
-                    <span class="counter" data-target="30" id="counter-scrunchies">30</span>
-                    <span class="impact-card__suffix">pcs</span>
-                </div>
-                <div class="impact-card__label">Scrunchie Tercipta</div>
-                <div class="impact-card__desc">Koleksi batch pertama yang dijahit dengan tangan dan siap menemani gaya harianmu.</div>
-            </div>
-
-            <div class="impact-card anim-fade-up anim-delay-3">
-                <div class="impact-card__number-wrap">
-                    <span class="counter" data-target="5" id="counter-designs">5</span>
-                    <span class="impact-card__suffix">desain</span>
-                </div>
-                <div class="impact-card__label">Corak & Varian Unik</div>
-                <div class="impact-card__desc">Dari kilau satin keemasan hingga motif batik klasik Nusantara yang sarat filosofi.</div>
-            </div>
-
-            <div class="impact-card anim-fade-up anim-delay-4">
-                <div class="impact-card__number-wrap">
-                    <span class="counter" data-target="100" id="counter-handmade">100</span>
-                    <span class="impact-card__suffix">%</span>
-                </div>
-                <div class="impact-card__label">Jahitan Tangan Lokal</div>
-                <div class="impact-card__desc">Dibuat secara manual tanpa mesin pabrik masal, menjaga keaslian nilai karya lokal.</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ══════════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════════
      GIVE FABRIC A SECOND LIFE (DONASI KAIN)
      ══════════════════════════════════════════════════════════ -->
-<section class="section donation-cta" id="donasi" aria-label="Donasi Kain Bekas">
-    <div class="container">
-        <div class="donation-card anim-fade-up">
-            <div>
-                <span class="section-eyebrow">Give Fabric a Second Life</span>
-                <h2 class="donation-card__title">Punya Kain Tak Terpakai? Beri Cerita Baru.</h2>
-                <p class="donation-card__text">
-                    Punya potongan kain sisa jahitan atau busana tak terpakai yang masih bersih dan berkondisi baik? Jangan buang ke tempat sampah. Serahkan ke studio MnR untuk kami ubah menjadi aksesori upcycled yang bermanfaat.
-                </p>
-                <div class="donation-card__action">
-                    <a href="https://wa.me/6285211385618"
-                       class="btn btn--whatsapp"
-                       data-wa="fabric"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.698.057-1.144-.092-.857-.285-1.996-1.196-2.735-2.029-.739-.834-1.282-1.859-1.282-2.784 0-.497.195-.889.479-1.168.214-.21.469-.264.624-.264.156 0 .313.003.447.01.142.008.33.023.479.382.155.372.531 1.303.578 1.398.047.096.079.208.016.333-.063.125-.094.208-.188.318-.094.11-.198.246-.282.33-.094.095-.192.198-.083.385.109.188.484.798 1.037 1.29.711.633 1.311.83 1.498.924.188.094.297.079.407-.047.11-.125.47-548.595-.736.125-.188.25-.157.422-.094.172.063 1.094.516 1.282.609.188.094.313.141.36.219.046.078.046.452-.098.857z"/>
-                        </svg>
-                        Konsultasi Donasi Kain via WhatsApp
-                    </a>
-                    <span class="donation-card__note">MnR menerima donasi kain satin, katun, dan batik dari seluruh wilayah.</span>
+    <section class="section donation-cta" id="donasi" aria-label="Donasi Kain Bekas">
+        <div class="container">
+            <div class="donation-card anim-fade-up">
+                <div>
+                    <span class="section-eyebrow">Give Fabric a Second Life</span>
+                    <h2 class="donation-card__title">Punya Kain Tak Terpakai? Beri Cerita Baru.</h2>
+                    <p class="donation-card__text">
+                        Punya potongan kain sisa jahitan atau busana tak terpakai yang masih bersih dan berkondisi baik?
+                        Jangan buang ke tempat sampah. Serahkan ke studio MnR untuk kami ubah menjadi aksesori upcycled
+                        yang bermanfaat.
+                    </p>
+                    <div class="donation-card__action">
+                        <a href="https://wa.me/6285211385618" class="btn btn--whatsapp" data-wa="fabric" target="_blank"
+                            rel="noopener noreferrer">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.698.057-1.144-.092-.857-.285-1.996-1.196-2.735-2.029-.739-.834-1.282-1.859-1.282-2.784 0-.497.195-.889.479-1.168.214-.21.469-.264.624-.264.156 0 .313.003.447.01.142.008.33.023.479.382.155.372.531 1.303.578 1.398.047.096.079.208.016.333-.063.125-.094.208-.188.318-.094.11-.198.246-.282.33-.094.095-.192.198-.083.385.109.188.484.798 1.037 1.29.711.633 1.311.83 1.498.924.188.094.297.079.407-.047.11-.125.47-548.595-.736.125-.188.25-.157.422-.094.172.063 1.094.516 1.282.609.188.094.313.141.36.219.046.078.046.452-.098.857z" />
+                            </svg>
+                            Konsultasi Donasi Kain via WhatsApp
+                        </a>
+                        <span class="donation-card__note">MnR menerima donasi kain satin, katun, dan batik dari seluruh
+                            wilayah.</span>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/Lifestyle/CraftStory.png" alt="Donasi kain MnR"
+                        style="width: 100%; border: 1px solid var(--color-border);" loading="lazy">
                 </div>
             </div>
-
-            <div>
-                <img src="assets/Lifestyle/CraftStory.png"
-                     alt="Donasi kain MnR"
-                     style="width: 100%; border: 1px solid var(--color-border);"
-                     loading="lazy">
-            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ══════════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════════
      FOOTER
      ══════════════════════════════════════════════════════════ -->
-<footer class="footer" role="contentinfo">
-    <div class="container">
-        <div class="footer__main">
-            <div>
-                <div class="footer__brand-logo">
-                    <img src="assets/Logo/logo.png" alt="Logo MnR">
-                    <span>MnR</span>
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__main">
+                <div>
+                    <div class="footer__brand-logo">
+                        <img src="assets/Logo/logo.png" alt="Logo MnR">
+                        <span>MnR</span>
+                    </div>
+                    <p class="footer__brand-tagline">
+                        Give Fabric a Second Story.<br>
+                        Scrunchie handmade estetik dari kain upcycled pilihan. Dibuat dengan penuh rasa hormat pada alam
+                        dan tradisi lokal.
+                    </p>
                 </div>
-                <p class="footer__brand-tagline">
-                    Give Fabric a Second Story.<br>
-                    Scrunchie handmade estetik dari kain upcycled pilihan. Dibuat dengan penuh rasa hormat pada alam dan tradisi lokal.
-                </p>
+
+                <div>
+                    <h4 class="footer__col-title">Navigasi</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html" class="footer__link">Beranda</a></li>
+                        <li><a href="catalog.html" class="footer__link">Semua Koleksi</a></li>
+                        <li><a href="#cerita-kami" class="footer__link">Cerita Kami</a></li>
+                        <li><a href="#dampak" class="footer__link">Dampak Lingkungan</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer__col-title">Layanan</h4>
+                    <ul class="footer__links">
+                        <li><a href="#rekomendasi" class="footer__link">Rekomendasi Budget</a></li>
+                        <li><a href="#susun-paket" class="footer__link">Buat Paket Pilihan</a></li>
+                        <li><a href="#donasi" class="footer__link">Donasi Kain Bekas</a></li>
+                        <li><a href="catalog.html" class="footer__link">Status Ketersediaan</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer__col-title">Kontak & Admin</h4>
+                    <ul class="footer__links">
+                        <li><a href="https://wa.me/6285211385618" class="footer__link" target="_blank"
+                                rel="noopener noreferrer">WhatsApp: 0852-1138-5618</a></li>
+                        <li><a href="https://www.instagram.com/mnr.accessories/" class="footer__link" target="_blank"
+                                rel="noopener noreferrer">Instagram: @mnr.accessories</a></li>
+                        <li><span class="footer__link" style="color:var(--color-text-light);">DKI Jakarta,
+                                Indonesia</span></li>
+                    </ul>
+                </div>
             </div>
 
-            <div>
-                <h4 class="footer__col-title">Navigasi</h4>
-                <ul class="footer__links">
-                    <li><a href="index.html" class="footer__link">Beranda</a></li>
-                    <li><a href="catalog.html" class="footer__link">Semua Koleksi</a></li>
-                    <li><a href="#cerita-kami" class="footer__link">Cerita Kami</a></li>
-                    <li><a href="#dampak" class="footer__link">Dampak Lingkungan</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <h4 class="footer__col-title">Layanan</h4>
-                <ul class="footer__links">
-                    <li><a href="#rekomendasi" class="footer__link">Rekomendasi Budget</a></li>
-                    <li><a href="#susun-paket" class="footer__link">Buat Paket Pilihan</a></li>
-                    <li><a href="#donasi" class="footer__link">Donasi Kain Bekas</a></li>
-                    <li><a href="catalog.html" class="footer__link">Status Ketersediaan</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <h4 class="footer__col-title">Kontak & Admin</h4>
-                <ul class="footer__links">
-                    <li><a href="https://wa.me/6285211385618" class="footer__link" target="_blank" rel="noopener noreferrer">WhatsApp: 0852-1138-5618</a></li>
-                    <li><a href="https://instagram.com" class="footer__link" target="_blank" rel="noopener noreferrer">Instagram: @mnr.official</a></li>
-                    <li><span class="footer__link" style="color:var(--color-text-light);">DKI Jakarta, Indonesia</span></li>
-                </ul>
+            <div class="footer__bottom">
+                <span>© 2025–2026 MnR Studio. Seluruh Hak Cipta Dilindungi.</span>
+                <span>Handmade with Intention · Upcycled Fashion Indonesia</span>
             </div>
         </div>
+    </footer>
 
-        <div class="footer__bottom">
-            <span>© 2025–2026 MnR Studio. Seluruh Hak Cipta Dilindungi.</span>
-            <span>Handmade with Intention · Upcycled Fashion Indonesia</span>
-        </div>
-    </div>
-</footer>
-
-<!-- ══════════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════════
      MODAL PEMBAYARAN QRIS & WHATSAPP
      ══════════════════════════════════════════════════════════ -->
-<div class="modal-overlay" id="payment-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
-    <div class="modal-content">
-        <div class="modal__header">
-            <h3 class="modal__title" id="modal-title">Pembayaran Pesanan</h3>
-            <button class="modal__close-btn" id="modal-close-btn" aria-label="Tutup modal" type="button">&times;</button>
-        </div>
-
-        <div class="modal__body">
-            <!-- Ringkasan Pesanan -->
-            <div class="order-summary-box">
-                <div class="order-row">
-                    <span>Produk</span>
-                    <strong id="modal-product-name">—</strong>
-                </div>
-                <div class="order-row">
-                    <span>Kode ID</span>
-                    <span id="modal-product-id">—</span>
-                </div>
-                <div class="order-row">
-                    <span>Jumlah</span>
-                    <span id="modal-product-qty">1 pcs</span>
-                </div>
-                <div class="order-row">
-                    <span>Harga Satuan</span>
-                    <span id="modal-product-price">Rp6.000</span>
-                </div>
-                <div class="order-row order-row--total">
-                    <span>Total Pembayaran</span>
-                    <strong id="modal-total-price">Rp6.000</strong>
-                </div>
+    <div class="modal-overlay" id="payment-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"
+        tabindex="-1">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h3 class="modal__title" id="modal-title">Pembayaran Pesanan</h3>
+                <button class="modal__close-btn" id="modal-close-btn" aria-label="Tutup modal"
+                    type="button">&times;</button>
             </div>
 
-            <!-- QRIS Payment Box -->
-            <div class="qris-section">
-                <span class="qris-badge">Scan QRIS untuk Membayar</span>
-                <div class="qris-image-wrap">
-                    <img id="modal-qris-img" src="assets/QRIS.jpeg" alt="QRIS Resmi MnR">
+            <div class="modal__body">
+                <!-- Ringkasan Pesanan -->
+                <div class="order-summary-box">
+                    <div class="order-row">
+                        <span>Produk</span>
+                        <strong id="modal-product-name">—</strong>
+                    </div>
+                    <div class="order-row">
+                        <span>Kode ID</span>
+                        <span id="modal-product-id">—</span>
+                    </div>
+                    <div class="order-row">
+                        <span>Jumlah</span>
+                        <span id="modal-product-qty">1 pcs</span>
+                    </div>
+                    <div class="order-row">
+                        <span>Harga Satuan</span>
+                        <span id="modal-product-price">Rp6.000</span>
+                    </div>
+                    <div class="order-row order-row--total">
+                        <span>Total Pembayaran</span>
+                        <strong id="modal-total-price">Rp6.000</strong>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Alur Pembayaran -->
-            <div class="qris-steps">
-                <div class="qris-step">
-                    <span class="qris-step__num">1.</span>
-                    <span>Buka aplikasi pembayaran (GoPay, OVO, Dana, BCA, Mandiri, atau m-Banking pilihanmu).</span>
+                <!-- QRIS Payment Box -->
+                <div class="qris-section">
+                    <span class="qris-badge">Scan QRIS untuk Membayar</span>
+                    <div class="qris-image-wrap">
+                        <img id="modal-qris-img" src="assets/QRIS.jpeg" alt="QRIS Resmi MnR">
+                    </div>
                 </div>
-                <div class="qris-step">
-                    <span class="qris-step__num">2.</span>
-                    <span>Scan kode QRIS di atas sesuai nominal total yang tertera.</span>
-                </div>
-                <div class="qris-step">
-                    <span class="qris-step__num">3.</span>
-                    <span>Ambil screenshot bukti transfer, lalu klik tombol di bawah untuk konfirmasi via WhatsApp.</span>
-                </div>
-            </div>
 
-            <div class="modal__footer">
-                <button class="btn btn--whatsapp btn--full" id="modal-confirm-btn" type="button">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.698.057-1.144-.092-.857-.285-1.996-1.196-2.735-2.029-.739-.834-1.282-1.859-1.282-2.784 0-.497.195-.889.479-1.168.214-.21.469-.264.624-.264.156 0 .313.003.447.01.142.008.33.023.479.382.155.372.531 1.303.578 1.398.047.096.079.208.016.333-.063.125-.094.208-.188.318-.094.11-.198.246-.282.33-.094.095-.192.198-.083.385.109.188.484.798 1.037 1.29.711.633 1.311.83 1.498.924.188.094.297.079.407-.047.11-.125.47-548.595-.736.125-.188.25-.157.422-.094.172.063 1.094.516 1.282.609.188.094.313.141.36.219.046.078.046.452-.098.857z"/>
-                    </svg>
-                    Konfirmasi Pembayaran via WhatsApp
-                </button>
-                <button class="btn btn--ghost btn--full" id="modal-cancel-btn" type="button">
-                    Batal
-                </button>
+                <!-- Alur Pembayaran -->
+                <div class="qris-steps">
+                    <div class="qris-step">
+                        <span class="qris-step__num">1.</span>
+                        <span>Buka aplikasi pembayaran (GoPay, OVO, Dana, BCA, Mandiri, atau m-Banking
+                            pilihanmu).</span>
+                    </div>
+                    <div class="qris-step">
+                        <span class="qris-step__num">2.</span>
+                        <span>Scan kode QRIS di atas sesuai nominal total yang tertera.</span>
+                    </div>
+                    <div class="qris-step">
+                        <span class="qris-step__num">3.</span>
+                        <span>Ambil screenshot bukti transfer, lalu klik tombol di bawah untuk konfirmasi via
+                            WhatsApp.</span>
+                    </div>
+                </div>
+
+                <div class="modal__footer">
+                    <button class="btn btn--whatsapp btn--full" id="modal-confirm-btn" type="button">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.698.057-1.144-.092-.857-.285-1.996-1.196-2.735-2.029-.739-.834-1.282-1.859-1.282-2.784 0-.497.195-.889.479-1.168.214-.21.469-.264.624-.264.156 0 .313.003.447.01.142.008.33.023.479.382.155.372.531 1.303.578 1.398.047.096.079.208.016.333-.063.125-.094.208-.188.318-.094.11-.198.246-.282.33-.094.095-.192.198-.083.385.109.188.484.798 1.037 1.29.711.633 1.311.83 1.498.924.188.094.297.079.407-.047.11-.125.47-548.595-.736.125-.188.25-.157.422-.094.172.063 1.094.516 1.282.609.188.094.313.141.36.219.046.078.046.452-.098.857z" />
+                        </svg>
+                        Konfirmasi Pembayaran via WhatsApp
+                    </button>
+                    <button class="btn btn--ghost btn--full" id="modal-cancel-btn" type="button">
+                        Batal
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Scripts -->
-<script src="data/products.js"></script>
-<script src="js/whatsapp.js"></script>
-<script src="js/recommendation.js"></script>
-<script src="js/main.js"></script>
+    <!-- Scripts -->
+    <script src="data/products.js"></script>
+    <script src="js/whatsapp.js"></script>
+    <script src="js/recommendation.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
